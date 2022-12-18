@@ -24,20 +24,6 @@ def start(message):
 	item11 = types.KeyboardButton("вот так: 😔") 
 	item12 = types.KeyboardButton("вот так: 🤔") 
 
-	#картинки
-	pic1 = open('pic1.webp', 'rb')
-	pic2 = open('pic2.webp', 'rb')
-	pic3 = open('pic3.webp', 'rb')
-	pic4 = open('pic4.webp', 'rb')
-	pic5 = open('pic5.webp', 'rb')
-	pic6 = open('pic6.webp', 'rb')
-	pic7 = open('pic7.webp', 'rb')
-	pic8 = open('pic8.webp', 'rb')
-	pic9 = open('pic9.webp', 'rb')
-	pic10 = open('pic10.webp', 'rb')
-	pic11 = open('pic11.webp', 'rb')
-	pic12 = open('pic12.webp', 'rb')
-
 
 	markup.add(item1, item2, item3, item4, item5, item6, item7, item8, item9, item10, item11, item12)
 
